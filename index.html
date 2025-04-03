@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#ff3131">
+    <title>Canal Sincelejo</title>
+
+    <link rel="icon" href="asset/favicon.png" type="image/x-icon">
+
+    <!-- Preconexión para carga más rápida de fuentes, librerías y imagenes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="asset/Img-fondo.jpg" as="image">
+    <link rel="preload" href="asset/About Me.png" as="image">
+    <link rel="preload" href="asset/Noticias-al-dia.jpg" as="image">
+    <link rel="preload" href="asset/Voces-de-mi-tierra.jpg" as="image">
+    <link rel="preload" href="asset/Zona-deportiva.jpg" as="image">
+
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="asset/logo.svg" alt="Logo de Canal Sincelejo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#hero-section">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-section">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programacion-section">Programación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios-section">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact-info">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero vh-100 d-flex align-items-center" id="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10  text-lg-start">
+                    <h1 class="text-white display-3 fw-bolder mb-3">Tu Ventana a la Información Local</h1>
+                    <p class="text-white fs-4 mb-4">Conectando a Sincelejo con la información, cultura y entretenimiento
+                        que nos une.</p>
+
+                    <!-- Botón en vivo -->
+                    <a href="envivo.html" class="btn btn-danger rounded-pill px-4 py-1.5 mb-3 pulse-animation">
+                        <span class="pulse-dot me-2"></span> En vivo
+                    </a>
+
+                    <!-- Botones de Redes Sociales -->
+                    <div class="social-buttons mt-3">
+                        <a href="https://www.facebook.com/" class="btn btn-outline-light btn-social mx-1 rounded-circle" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="btn btn-outline-light btn-social mx-1 rounded-circle" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/" class="btn btn-outline-light btn-social mx-1 rounded-circle" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="about-section" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Contenido de texto -->
+                <div class="col-lg-6 about-content">
+                    <h1>Nosotros</h1>
+                    <h2>Canal Sincelejo, la pantalla de nuestra ciudad.</h2>
+                    <p>En Canal Sincelejo, somos el medio digital que conecta a la comunidad con la información más
+                        relevante de la ciudad.
+                        Nos enfocamos en compartir noticias, cultura, deportes y entretenimiento, resaltando las
+                        historias que hacen de Sincelejo un lugar único.
+                        Nuestra misión es ser la voz de la gente, ofreciendo contenido auténtico, cercano y de calidad.
+                        A través de transmisiones en vivo, reportajes y
+                        programas especiales, mantenemos informada a nuestra audiencia y promovemos el desarrollo de
+                        nuestra región.</p>
+                </div>
+
+                <!-- Imagen (se ocultará en móviles) -->
+                <div class="col-lg-6 img">
+                    <img src="asset/About Me.png" alt="Equipo de Canal Sincelejo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Programación -->
+    <section class="programacion-section" id="programacion-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 class="section-title">Programacion</h2> <!-- Título simplificado -->
+                </div>
+            </div>
+
+            <div class="row ">
+                <!-- Programa 1 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="programa-card">
+                        <div class="programa-img">
+                            <img src="asset/Noticias-al-dia.jpg" alt="Noticias-al-dia">
+                            <span class="programa-hora"><i class="fas fa-clock me-2"></i>8:00 AM</span>
+                        </div>
+                        <div class="programa-body">
+                            <h3 class="programa-title">Noticias al Día</h3>
+                            <p class="programa-desc">Mantente informado con las noticias más relevantes de Sincelejo y
+                                la región.</p>
+                            <span class="programa-cat">Noticias</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programa 2 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="programa-card">
+                        <div class="programa-img">
+                            <img src="asset/Voces-de-mi-tierra.jpg" alt="Voces-de-mi-tierra">
+                            <span class="programa-hora"><i class="fas fa-clock me-2"></i>2:00 PM</span>
+                        </div>
+                        <div class="programa-body">
+                            <h3 class="programa-title">Voces de Mi Tierra</h3>
+                            <p class="programa-desc">Un espacio dedicado a la cultura, la música y las historias de
+                                nuestra gente.</p>
+                            <span class="programa-cat">Cultura</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programa 3 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="programa-card">
+                        <div class="programa-img">
+                            <img src="asset/Zona-deportiva.jpg" alt="Deportes en Acción">
+                            <span class="programa-hora"><i class="fas fa-clock me-2"></i>7:00 PM</span>
+                        </div>
+                        <div class="programa-body">
+                            <h3 class="programa-title">Zona Deportiva</h3>
+                            <p class="programa-desc">Análisis, entrevistas y todo sobre el deporte local y nacional.</p>
+                            <span class="programa-cat">Deportes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Sección Servicios -->
+    <section id="servicios-section">
+        <div class="container servicios-container">
+            <h2 class="servicios-title">Servicios</h2>
+
+            <div class="row">
+                <!-- Tarjeta 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="servicio-card text-center">
+                        <div class="servicio-icon">
+                            <i class="fas fa-tv"></i>
+                        </div>
+                        <h3>Producción Televisiva</h3>
+                        <p class="mb-0">Contenido de alta calidad para televisión con equipo profesional.</p>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="servicio-card text-center">
+                        <div class="servicio-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Transmisiones en Vivo</h3>
+                        <p class="mb-0">Cobertura en tiempo real de eventos importantes con tecnología de última
+                            generación.</p>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="servicio-card text-center">
+                        <div class="servicio-icon">
+                            <i class="fas fa-ad"></i>
+                        </div>
+                        <h3>Publicidad Local</h3>
+                        <p class="mb-0">Soluciones publicitarias efectivas para negocios con estrategias regionales.</p>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="servicio-card text-center">
+                        <div class="servicio-icon">
+                            <i class="fas fa-microphone-alt"></i>
+                        </div>
+                        <h3>Producción Radial</h3>
+                        <p class="mb-0">Contenido sonoro profesional para acompañar nuestra programación.</p>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="servicio-card text-center">
+                        <div class="servicio-icon">
+                            <i class="fas fa-photo-video"></i>
+                        </div>
+                        <h3>Contenido Digital</h3>
+                        <p class="mb-0">Producción de material optimizado para redes sociales y plataformas digitales.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="servicio-card text-center">
+                        <div class="servicio-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>Cobertura de Eventos</h3>
+                        <p class="mb-0">Transmisión especial de festivales y eventos culturales con equipos móviles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <!-- Logo SVG -->
+                    <img class="footer-logo" src="asset/Logo footer.svg" alt="logo-footer">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#ff3131" />
+                            <stop offset="100%" stop-color="#ff914d" />
+                        </linearGradient>
+                    </defs>
+                    <p>El canal líder en información y entretenimiento de la región. Comprometidos con la calidad y la
+                        veracidad en cada uno de nuestros contenidos.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Sección de Enlaces (oculta en móviles) -->
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0 footer-links-section">
+                    <h4 class="footer-title">Enlaces</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Programación</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sección de Servicios (oculta en móviles) -->
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 footer-services-section">
+                    <h4 class="footer-title">Servicios</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Producción TV</a></li>
+                        <li><a href="#">Transmisiones en vivo</a></li>
+                        <li><a href="#">Publicidad</a></li>
+                        <li><a href="#">Contenido digital</a></li>
+                        <li><a href="#">Cobertura de eventos</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sección de Contacto (siempre visible) -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-title">Contacto</h4>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Calle 123 #45-67, Sincelejo, Sucre</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+57 300 123 4567</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <span>contacto@canalsincelejo.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2023 Canal Sincelejo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
