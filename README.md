@@ -13,6 +13,6 @@
 ---
 
 ## 📸 Capturas de Pantalla  
-_Agrega imágenes del proyecto aquí_  
-```md
-![Vista previa](ruta/de/la/imagen.png)
+
+
+![711shots_so](https://github.com/user-attachments/assets/29e1e053-0b0f-460a-8350-82bab2d77ce9)
