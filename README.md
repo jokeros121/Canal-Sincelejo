@@ -13,6 +13,6 @@
 ---
 
 ## 📸 Capturas de Pantalla  
+![484shots_so](https://github.com/user-attachments/assets/9e8960e5-7fea-4ed3-bb78-306d8a08fa9d)
 
 
-![711shots_so](https://github.com/user-attachments/assets/29e1e053-0b0f-460a-8350-82bab2d77ce9)
